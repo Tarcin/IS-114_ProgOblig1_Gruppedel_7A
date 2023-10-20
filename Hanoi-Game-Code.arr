@@ -29,11 +29,11 @@ full = overlay(red-green,blue-orange)
    step-3
 
 Technically after we defined all the color combinations it was very possible to omit the 3 rod variable 
-with 2 changes per cycle structure and simply use the step 1-3 manually feeding each rods color combination. 
-This would've resulted in fewer lines of code overall, but we decided not to revamp the structure, partly 
-because we liked the readability of what rod was currently being placed on the scene. And while
-the two lines with changes to the rods could've been removed they contributed to the clarity that this was 
-the move that was being made.
+with 2 changes per cycle structure and simply use the step 1-3 manually feeding each rods color combination
+without losing too much readability. This would've resulted in fewer lines of code overall, but we decided 
+not to revamp the structure, partly because we liked the clarity of what rod was currently being placed on the scene.
+And while the two lines with changes to the rods could've been removed they contributed to the readability of what the
+current move that was being made was.
 |#
 
 #variables used for the current state of each rod throughout
